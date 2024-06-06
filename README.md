@@ -4,12 +4,12 @@ This project is a personal portfolio website built with React and TypeScript. It
 
 ## 📚 Table of Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Project Structure](#project-structure)
-4. [Components](#components)
-5. [Customization](#customization)
-6. [Contact](#contact)
+1. [Installation](#i-nstallation)
+2. [Usage](#-usage)
+3. [Project Structure](#-project-structure)
+4. [Components](#-components)
+5. [Customization](#-customization)
+6. [Contact](#-contact)
 
 ## 💻 Installation
 
@@ -58,7 +58,7 @@ To add icons, you can use any icon library, such as FontAwesome or Material Icon
 To add a favicon, you can generate one using a tool like favicon.io. Once you have your favicon, place it in the public/ directory and reference it in the public/index.html file like so: <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />.
 
 📧 Contact
-For any questions or feedback, please reach out to me at your-email@example.com.
+For any questions or feedback, please reach out to me at gm6504@myamu.ac.in
 
 ```
 
