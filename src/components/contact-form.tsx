@@ -1,5 +1,5 @@
 import { Card, CardDescription } from "@/components/ui/card";
-import { my_details } from "@/utils/data";
+import { my_details } from "@/constants/data";
 export function ContactForm() {
   return (
     <Card className="p-5">

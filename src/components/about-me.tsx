@@ -6,7 +6,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "./ui/button";
-import { my_details } from "@/utils/data";
+import { my_details } from "@/constants/data";
 import { File, GithubIcon, LinkedinIcon } from "lucide-react";
 export function AboutMe() {
   return (
