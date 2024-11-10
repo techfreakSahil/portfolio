@@ -1,4 +1,5 @@
-import { FaAws, FaDocker, FaReact, FaRust } from "react-icons/fa";
+import { FaAws, FaDocker, FaReact } from "react-icons/fa";
+import { FaBriefcase, FaCalendarAlt, FaFileAlt, FaUser } from "react-icons/fa";
 import { RiNextjsLine } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGolang, FaNodeJs } from "react-icons/fa6";
@@ -56,10 +57,6 @@ export const skills = [
   {
     icon: FaGolang,
     name: "Golang",
-  },
-  {
-    icon: FaRust,
-    name: "Rust",
   },
   {
     icon: BiLogoMongodb,
@@ -135,17 +132,65 @@ export const ongoing_projects = [
       "A web app to generate prompts for users basis on the interface created by the user specification.",
   },
 ];
+
+export const experiences = [
+  {
+    company: {
+      name: "PsiGenei (Freelance)",
+      icon: FaBriefcase,
+    },
+    role: {
+      title: "Full Stack Developer",
+      icon: FaUser,
+    },
+    description: {
+      work: [
+        "Developed a marketing page and dashboard for Psigenei to enable course purchases and improve user experience.",
+        "Implemented OTP authentication and integrated a secure payment gateway for seamless transactions.",
+        "Leveraged AI models to predict relevant courses, enhancing personalized recommendations and user engagement.",
+      ],
+      icon: FaFileAlt,
+    },
+    duration: {
+      time: "Sept 2024 - Present",
+      icon: FaCalendarAlt,
+    },
+  },
+  {
+    company: {
+      name: "SuperPaper",
+      icon: FaBriefcase,
+    },
+    role: {
+      title: "Full Stack Developer Intern",
+      icon: FaUser,
+    },
+    description: {
+      work: [
+        "Led full-stack development for a SaaS product in an Agile environment, taking it from concept to deployment.",
+        "Built a CI/CD pipeline and robust authentication system using Supabase for secure and reliable deployments.",
+        "Designed and launched a marketing page integrated with Stripe, achieving high conversion rates and quality assurance.",
+      ],
+      icon: FaFileAlt,
+    },
+    duration: {
+      time: "July 2024 - Present",
+      icon: FaCalendarAlt,
+    },
+  },
+];
+
 export const my_details = {
   name: "Md Sahil Khan",
   location: "Aligarh, India",
   internship: "Present",
   projects_done: "10+ projects done",
-  email: "gm6504@myamu.ac.in",
+  email: "contactkhan@gmail.com",
   description: `👋 Hi, I'm Md Sahil Khan and skilled Full Stack Developer. With
   experience in web development and exploring AI/ML, I am equipped to
   create innovative and cutting-edge applications for the modern world`,
   github_url: "https://github.com/techfreakSahil",
   resume_url:
-    "https://drive.google.com/file/d/1-FW-gwXgGIunzjuVJgs2F-FVERMqXtLM/view?usp=drive_link",
+    "https://drive.google.com/file/d/1hIQOKLQTm3WEFCUKCXSP22AIcdaLoURk/view?usp=drivesdk",
   linkedin_url: "https://www.linkedin.com/in/md-sahil-khan-133490227/",
 };
