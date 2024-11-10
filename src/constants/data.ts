@@ -191,6 +191,6 @@ export const my_details = {
   create innovative and cutting-edge applications for the modern world`,
   github_url: "https://github.com/techfreakSahil",
   resume_url:
-    "https://drive.google.com/file/d/1hIQOKLQTm3WEFCUKCXSP22AIcdaLoURk/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1hW362VXuszepcfFV84FxH_RYMfPtlKl9/view?usp=drivesdk",
   linkedin_url: "https://www.linkedin.com/in/md-sahil-khan-133490227/",
 };
