@@ -1,4 +1,4 @@
-import { HomeIcon, MailIcon, TvIcon } from "lucide-react";
+import { Briefcase, HomeIcon, MailIcon, TvIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import { ModeToggle } from "./mode-toggle";
 import Link from "next/link";
@@ -20,6 +20,16 @@ export function Navbar() {
           >
             <HomeIcon size={15} />
             <div className="hidden lg:inline-block">Home</div>
+          </Button>
+        </Link>
+        <Link href="#experience">
+          <Button
+            className="flex justify-center items-center gap-1"
+            variant={"outline"}
+            size={"sm"}
+          >
+            <Briefcase size={15} />
+            <div className="hidden lg:inline-block">Experience</div>
           </Button>
         </Link>
         <Link href="#projects">

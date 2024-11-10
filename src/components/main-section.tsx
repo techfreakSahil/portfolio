@@ -1,8 +1,14 @@
-import { skills, projects, ongoing_projects } from "@/utils/data";
+import {
+  skills,
+  projects,
+  ongoing_projects,
+  experiences,
+} from "@/constants/data";
 import { Button } from "./ui/button";
 import React, { ReactNode } from "react";
 import { ProjectSection } from "./project-section";
 import { ContactForm } from "./contact-form";
+import { ExperienceSection } from "./experience-section";
 
 export function MainSection() {
   return (
@@ -34,6 +40,14 @@ export function MainSection() {
       </div>
       <h2 className="text-sm font-semibold my-3">-Full Stack-</h2>
       <SkillSets />
+      <h2 className="text-2xl font-bold my-5" id="experience">
+        Experiences
+      </h2>
+      <div className="flex flex-col gap-2">
+        {experiences.map((experience, index) => (
+          <ExperienceSection key={index} experience={experience} />
+        ))}
+      </div>
       <h2 className="text-2xl font-bold my-5" id="projects">
         Latest Projects
       </h2>
