@@ -1,11 +1,10 @@
 import {
   skills,
   projects,
-  ongoing_projects,
   experiences,
 } from "@/constants/data";
 import { Button } from "./ui/button";
-import React, { ReactNode } from "react";
+import React from "react";
 import { ProjectSection } from "./project-section";
 import { ContactForm } from "./contact-form";
 import { ExperienceSection } from "./experience-section";
@@ -20,13 +19,13 @@ export function MainSection() {
       <div className="w-full h-[1px] bg-gray-200 dark:bg-gray-800"></div>
       <div className="flex flex-col gap-3 sm:flex-row sm:justify-between  items-center mt-3">
         <div>
-          <h3 className="text-md font-semibold">Aligarh, India</h3>
+          <h3 className="text-md font-semibold">Kolkata, India</h3>
           <p className="text-sm text-gray-500 text-center sm:text-left">
             Location
           </p>
         </div>
         <div>
-          <h3 className="text-md font-semibold">Internship</h3>
+          <h3 className="text-md font-semibold">Freelancing</h3>
           <p className="text-sm text-gray-500 text-center sm:text-left ">
             Present
           </p>
@@ -58,14 +57,6 @@ export function MainSection() {
             title={project.title}
             description={project.description}
             url={project.url}
-          />
-        ))}
-        <h2 className="text-2xl font-bold my-5">Ongoing Projects</h2>
-        {ongoing_projects.map((project, index) => (
-          <ProjectSection
-            key={index}
-            title={project.title}
-            description={project.description}
           />
         ))}
       </div>

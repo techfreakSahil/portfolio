@@ -9,7 +9,7 @@ export function ContactForm() {
           href={`mailto:${my_details.email}`}
           className="ml-1 underline hover:text-black dark:hover:text-gray-300"
         >
-          gm6504@myamu.ac.in
+          contactkhansahil@gmail.com
         </a>
       </CardDescription>
     </Card>
